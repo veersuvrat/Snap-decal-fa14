@@ -221,8 +221,8 @@ SpriteMorph.prototype.initBlocks = function () {
             only: SpriteMorph,
             type: 'command',
             category: 'motion',
-            spec: 'turn %counterclockwise %n degrees',
-            defaults: [15]
+            spec: 'turn %counterclockwise %n degrees and make him go crazy',
+            defaults: [12213342]
         },
         setHeading: {
             only: SpriteMorph,
